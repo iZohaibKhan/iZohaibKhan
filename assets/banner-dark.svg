@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Zohaib Khan, AI Engineer and Full-Stack Developer. Imagine the combo: Me, AI and your challenges.">
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern>
+    <radialGradient id="gl" cx="0.15" cy="0.2" r="0.5"><stop offset="0" stop-color="#C8F542" stop-opacity=".28"/><stop offset="1" stop-color="#C8F542" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gc" cx="0.85" cy="0.1" r="0.45"><stop offset="0" stop-color="#3EE0E8" stop-opacity=".24"/><stop offset="1" stop-color="#3EE0E8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gr" cx="0.75" cy="1" r="0.45"><stop offset="0" stop-color="#FF6A4D" stop-opacity=".22"/><stop offset="1" stop-color="#FF6A4D" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="1200" height="380" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .t{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .m{font-family:'JetBrains Mono',SFMono-Regular,Consolas,'Liberation Mono',monospace}
+    .me{animation:me 6s cubic-bezier(.22,1,.36,1) infinite}
+    .ch{animation:ch 6s cubic-bezier(.22,1,.36,1) infinite}
+    .ai{animation:ai 6s cubic-bezier(.22,1,.36,1) infinite;transform-origin:150px 190px}
+    .u{stroke-dasharray:420;stroke-dashoffset:420;animation:u 6s cubic-bezier(.22,1,.36,1) infinite}
+    .u2{animation-delay:.25s} .u3{animation-delay:.5s}
+    .dot{animation:p 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes me{0%{transform:translate(-70px,20px);opacity:0}18%,82%{transform:none;opacity:1}100%{transform:translate(-70px,20px);opacity:0}}
+    @keyframes ch{0%{transform:translate(70px,20px) rotate(35deg);opacity:0}18%,82%{transform:none;opacity:1}100%{transform:translate(70px,20px) rotate(35deg);opacity:0}}
+    @keyframes ai{0%{transform:scale(1.5);opacity:0}22%,82%{transform:scale(1);opacity:1}100%{transform:scale(1.5);opacity:0}}
+    @keyframes u{0%,20%{stroke-dashoffset:420}40%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:420}}
+    @keyframes p{0%{transform:scale(1);opacity:.7}100%{transform:scale(2.6);opacity:0}}
+    @media (prefers-reduced-motion: reduce){.me,.ch,.ai,.u,.dot{animation:none;opacity:1;stroke-dashoffset:0}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="380" fill="#0A0B0F"/>
+    <rect width="1200" height="380" fill="url(#g)"/>
+    <rect width="1200" height="380" fill="url(#gl)"/><rect width="1200" height="380" fill="url(#gc)"/><rect width="1200" height="380" fill="url(#gr)"/>
+    <!-- the combo: me (circle) + AI (ring) + your challenges (square) -->
+    <g style="isolation:isolate">
+      <circle class="me" cx="118" cy="200" r="52" fill="#C8F542" style="mix-blend-mode:screen"/>
+      <rect class="ch" x="138" y="148" width="104" height="104" rx="20" fill="#FF6A4D" style="mix-blend-mode:screen"/>
+    </g>
+    <circle class="ai" cx="150" cy="190" r="70" fill="none" stroke="#3EE0E8" stroke-width="10"/>
+    <text x="320" y="92" class="m" font-size="15" letter-spacing="2.5" fill="#9A9BA3">ZK SOFTWARES · KOHAT, PAKISTAN</text>
+    <text x="316" y="176" class="t" font-size="76" font-weight="800" letter-spacing="-3" fill="#EDEAE3">Zohaib Khan</text>
+    <text x="320" y="218" class="m" font-size="19" fill="#3EE0E8">&gt; AI Engineer · Automation · Full-Stack · Mobile · Desktop</text>
+    <text x="320" y="272" class="t" font-size="26" font-weight="600" fill="#9A9BA3">Imagine the combo: <tspan fill="#C8F542" font-weight="800">Me</tspan>, <tspan fill="#3EE0E8" font-weight="800">AI</tspan> and <tspan fill="#FF6A4D" font-weight="800">your challenges</tspan>.</text>
+    <g transform="translate(870 296)">
+      <rect x="0" y="0" width="290" height="34" rx="17" fill="none" stroke="#9A9BA3" stroke-opacity=".35"/>
+      <circle class="dot" cx="18" cy="17" r="5" fill="#4ADE80"/><circle cx="18" cy="17" r="5" fill="#4ADE80"/>
+      <text x="34" y="22" class="m" font-size="13" fill="#9A9BA3">Available for projects · zksoftwares.com</text>
+    </g>
+  </g>
+</svg>
